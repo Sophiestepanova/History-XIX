@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<title>economics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<head>
+
+<link href="favicon.ico" rel="icon">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("http://allcastles.ru/assets/images/1/17658.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+table { width: 100%; }
+      th { height: 100px; }
+table {
+    border-collapse: collapse;
+}
+table, td, th {
+   
+	   padding-left: 50px;
+}	
+td {
+vertical-align:top;
+}
+ 
+  
+
+</style>
+<script src="economics.js"></script>
+
+</head>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Закрыть &times;</button>
+   <a href="index.html" class="w3-bar-item w3-button">Главная страница</a>
+  <a href="economics.html" class="w3-bar-item w3-button">Экономика</a>
+  <a href="for_politics.html" class="w3-bar-item w3-button">Внешняя политика</a>
+  <a href="ins_politics.html" class="w3-bar-item w3-button">Внутренняя политика</a>
+   <a href="Cult_decades.html" class="w3-bar-item w3-button">Культура, образование, наука</a>
+    <a href="decades.html" class="w3-bar-item w3-button">События по декадам</a>
+	 <a href="all_people.html" class="w3-bar-item w3-button">Персоналии</a>
+	 </div>
+	 <div class="w3-black">
+  <button class="w3-button-blue w3- w3-xlarge" onclick="w3_open()">☰</button>
+</div>
+
+
+<!-- Header with image--> 
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Тульский кремль</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:70px">Экономика</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white"></span>
+  </div>
+</header>
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+</div>
+ 
+  <table    width="100%" >
+  <tr>
+    <th><h1>Период</h1></th>
+    <th><center><h1>Описание</center></h1></th>
+  </tr>
+  <tr>
+  <div class="w3-container">
+    <td><center><h3><button class="w3-button w3-white" onclick = "show(0)">1801-1810</button> </h3></center></td>
+	</div>
+    <td rowspan="10">
+	<div id = "content"> 
+Нажмите на период, и здесь появится информация.
+	</div>
+	</td>
+  </tr>
+  <tr>
+    <td><center><h3><button class="w3-button w3-white" onclick = "show(1)"> 1811-1820</button></center></h3></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><center><h3><button class="w3-button w3-white" onclick = "show(2)">1821-1830</button></center></h3></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><center><h3><button class="w3-button w3-white" onclick = "show(3)">1831-1840</button></center></h3></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><center><h3><button class="w3-button w3-white" onclick = "show(4)">1841-1850</button></center></h3></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><center><h3><button class="w3-button w3-white" onclick = "show(5)">1851-1860</button></center></h3></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><center><h3><button class="w3-button w3-white" onclick = "show(6)">1861-1870</button></center></h3></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><center><h3><button class="w3-button w3-white" onclick = "show(7)">1871-1880</button></center></h3></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><center><h3><button class="w3-button w3-white" onclick = "show(8)">1881-1890</button></center></h3></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><center><h3><button class="w3-button w3-white" onclick = "show(9)">1891-1900</button></center></h3></td>
+    <td></td>
+  </tr>
+ 
+</table>
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://vk.com/id154309197" title="Sofya" target="_blank" class="w3-hover-text-green">Stepanova Sofya</a></p>
+</footer>
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

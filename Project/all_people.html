@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+<title>all_people</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<head>
+<link href="favicon.ico" rel="icon">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("http://pravmir.ru/wp-content/uploads/2015/03/48-600x352.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+table { width: 100%; 
+    border-collapse: collapse;
+}
+table, td, th {
+   
+	  padding: 10px 50px 50px 290px;
+	  
+}	
+ tr:nth-child(even) {
+    background-color: #f2f2f2
+  th {
+    cursor: pointer;
+}
+
+th, td {
+    text-align: left;
+    padding: 206px;
+}
+
+</style>
+</head>
+<body>
+<body bgcolor="">
+ <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Закрыть &times;</button>
+   <a href="index.html" class="w3-bar-item w3-button">Главная страница</a>
+  <a href="economics.html" class="w3-bar-item w3-button">Экономика</a>
+  <a href="for_politics.html" class="w3-bar-item w3-button">Внешняя политика</a>
+  <a href="ins_politics.html" class="w3-bar-item w3-button">Внутренняя политика</a>
+   <a href="Cult_decades.html" class="w3-bar-item w3-button">Культура, образование, наука</a>
+    <a href="decades.html" class="w3-bar-item w3-button">События по декадам</a>
+	 <a href="all_people.html" class="w3-bar-item w3-button">Персоналии</a>
+	 </div>
+	 <div class="w3-black">
+  <button class="w3-button-blue w3- w3-xlarge" onclick="w3_open()">☰</button>
+</div>
+
+<!-- Header with image--> 
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Прием волостных старшин Александром III во дворе Петровского дворца в Москве</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Персоналии</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white"></span>
+  </div>
+</header>
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+</div>
+ <body>
+ <table id="myTable">
+  <tr>
+  
+    <th onclick="sortTable(0)"><h1><strong>ФИО</strong></h1></th>
+    <th onclick="sortTable(1)"><h1><strong>Род деятельности</strong></h1></th>
+  </tr>
+  <tr>
+   <td><a href="Alex1.html" class="w3-bar-item w3-button"><h3>Романов Александр Николаевич (Александр 1)</h3></a></td>
+   <td><a href="Alex1.html" class="w3-bar-item w3-button"><h3>Император</h3></a></td>
+  </tr>
+  <tr>
+    <td><a href="alex2.html" class="w3-bar-item w3-button"><h3>Романов Александр Николаевич (Александр 2)</h3></a></td>
+   <td><a href="Alex2.html" class="w3-bar-item w3-button"><h3>Император</h3></a></td>
+  </tr>
+  <tr>
+    <td><a href="Alex3.html" class="w3-bar-item w3-button"><h3>Романов Александр Николаевич (Александр 3)</h3></a></td>
+    <td><a href="Alex3.html" class="w3-bar-item w3-button"><h3>Император</h3></a></td>
+  </tr>
+  <tr>
+    <td><a href="vitte.html" class="w3-bar-item w3-button"><h3>Витте Сергей  Юльевич</h3></a></td>
+   <td><a href="vitte.html" class="w3-bar-item w3-button"><h3>Госдеятель</h3></a></td>
+  </tr>
+  <tr>
+    <td><a href="speransk.html" class="w3-bar-item w3-button"><h3>Сперанский Михаил Михайлович </h3></a></td>
+    <td><a href="speransk.html" class="w3-bar-item w3-button"><h3>Госдеятель</h3></a></td>  </tr>
+  <tr>
+    <td><a href="dostoev.html" class="w3-bar-item w3-button"><h3>Достоевский Федор Михайлович</h3></a></td>
+    <td><a href="dostoev.html" class="w3-bar-item w3-button"><h3>Писатель</h3></a></td>
+  </tr>
+  <tr>
+    <td><a href="gerz.html" class="w3-bar-item w3-button"><h3>Герцен Александр Михайлович</h3></a></td>
+    <td><a href="gerz.html" class="w3-bar-item w3-button"><h3>Публицист</h3></a></td>
+  </tr>
+  <tr>
+    <td><a href="nikol1.html" class="w3-bar-item w3-button"><h3>Романов Николай Павлович(Николай 1)</h3></a></td>
+   <td><a href="nikol1.html" class="w3-bar-item w3-button"><h3>Император</h3></a></td>
+  </tr>
+</table>
+ 
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+<p>Powered by <a href="https://vk.com/id154309197" title="Sofya" target="_blank" class="w3-hover-text-green">Stepanova Sofya</a></p></footer>
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("myTable");
+  switching = true;
+  
+  dir = "asc"; 
+ 
+  while (switching) {
+   
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    
+    for (i = 1; i < (rows.length - 1); i++) {
+      
+      shouldSwitch = false;
+      
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+       
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+        
+          shouldSwitch= true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+     
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+
+      switchcount ++;      
+    } else {
+     
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+</body>
+
+</html>

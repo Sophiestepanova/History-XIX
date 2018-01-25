@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<title>event</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<head>
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://pp.userapi.com/c830709/v830709076/4ec51/Tfvpx7-05Nw.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+table { width: 70%; }
+      th { height: 50px; }
+.recom { margin-left: 50%;
+margin-top: -80px;
+border: 3px solid #666;
+width:50%;
+}
+.text{
+margin-top: 40px;
+margin-left: 5%;
+}
+
+</style>
+</head>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Закрыть &times;</button>
+   <a href="index.html" class="w3-bar-item w3-button">Главная страница</a>
+  <a href="economics.html" class="w3-bar-item w3-button">Экономика</a>
+  <a href="for_politics.html" class="w3-bar-item w3-button">Внешняя политика</a>
+  <a href="ins_politics.html" class="w3-bar-item w3-button">Внутренняя политика</a>
+   <a href="Cult_decades.html" class="w3-bar-item w3-button">Культура, образование, наука</a>
+    <a href="decades.html" class="w3-bar-item w3-button">События по декадам</a>
+	 <a href="all_people.html" class="w3-bar-item w3-button">Персоналии</a>
+	 </div>
+	 <div class="w3-black">
+  <button class="w3-button-blue w3- w3-xlarge" onclick="w3_open()">☰</button>
+</div>
+
+
+<!-- Header with image--> 
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Вид на царскую ложу Большого театра</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:70px">Большой театр</span>
+  </div
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white"></span>
+  </div>
+</header>
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+</div>
+ <body>
+   <div class="text" style="width:40%" style="height:40%" >
+Госуда́рственный академи́ческий Большо́й теа́тр Росси́и (ГАБТ), или просто Большой театр — один
+ из крупнейших в России и один из самых значительных в мире театров оперы и балета.
+ Комплекс зданий театра расположен в центре Москвы, на Театральной площади. 
+ Объект культурного наследия народов России федерального значения.
+ </div>
+ <div class="recom">
+ <strong>Рекомендации:</strong>
+<a href="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2"><STRONG><p>https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2</p></STRONG></a>
+</div>
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
